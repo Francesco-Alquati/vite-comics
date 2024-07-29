@@ -40,7 +40,7 @@ export default {
 </script>
 <template lang="">
     <div>
-        <div class="bg-blue h-200 mx-auto z-index-1">
+        <div class="bg-blue h-130 mx-auto z-index-1">
             <ul class="list-unstyled h-100 text-uppercase d-flex justify-content-center align-items-center">
                 <li v-for="link,index in links" :key="index">
                     <img :src="link.img" :class="index === 3 ? 'special-icon' : ''">
@@ -66,8 +66,8 @@ img{
     width: 40px;
     margin-right: 10px;
 }
-.h-200{
-    height: 150px;
+.h-130{
+    height: 130px;
 }
 .bg-blue{
     background-color: #0281F6;

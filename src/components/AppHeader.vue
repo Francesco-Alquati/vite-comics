@@ -79,24 +79,24 @@ export default {
     </header>
 </template>
 <style lang="scss" scoped>
-    img{
-        width: 70px;
-        margin: 15px 0px;
-    }
-    ul {
-        li{
-            margin: 0px 10px;
-            font-size: 12px;
+img{
+    width: 70px;
+    margin: 15px 0px;
+}
+ul {
+    li{
+        margin: 0px 10px;
+        font-size: 12px;
 
-            a{
-                text-decoration: none;
-                color: rgb(37, 37, 37);
-                padding: 39px 0px;
-            }
-        }
-        .active a{
-            color: #097CEB;
-            border-bottom: 4px solid #097CEB;
+        a{
+            text-decoration: none;
+            color: rgb(37, 37, 37);
+            padding: 39px 0px;
         }
     }
+    .active a{
+        color: #097CEB;
+        border-bottom: 4px solid #097CEB;
+    }
+}
 </style>
