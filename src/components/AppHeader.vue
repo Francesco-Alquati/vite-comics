@@ -94,8 +94,8 @@ export default {
             }
         }
         .active a{
-            color: blue;
-            border-bottom: 4px solid blue;
+            color: #097CEB;
+            border-bottom: 4px solid #097CEB;
         }
     }
 </style>
