@@ -59,7 +59,7 @@ export default {
 }
 </script>
 <template lang="">
-    <header class="bg-success">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-4">
