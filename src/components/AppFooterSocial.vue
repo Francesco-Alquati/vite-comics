@@ -39,7 +39,7 @@ export default {
                     </div>
                 </div>
                 <div class="col-8">
-                    <div class="d-flex justify-content-center align-items-center h-129">
+                    <div class="d-flex justify-content-end align-items-center h-129">
                         <h4 class="text-uppercase fs-5 text-blue me-4 mt-2">follow us</h4>
                         <div v-for="img,index in imgs" :key="index">
                             <img :src="img.url">

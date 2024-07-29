@@ -91,6 +91,7 @@ export default {
             a{
                 text-decoration: none;
                 color: rgb(37, 37, 37);
+                padding: 39px 0px;
             }
         }
         .active a{
