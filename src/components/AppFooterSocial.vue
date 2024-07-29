@@ -1,5 +1,31 @@
 <script>
 export default {
+    data(){
+        return{
+            imgs:[
+                {
+                    index:'1',
+                    url:'/footer-facebook.png'
+                },
+                {
+                    index:'2',
+                    url:'/footer-periscope.png'
+                },
+                {
+                    index:'3',
+                    url:'/footer-pinterest.png'
+                },
+                {
+                    index:'4',
+                    url:'/footer-twitter.png'
+                },
+                {
+                    index:'5',
+                    url:'/footer-youtube.png'
+                },
+            ]
+        }
+    }
     
 }
 </script>
@@ -15,11 +41,9 @@ export default {
                 <div class="col-8">
                     <div class="d-flex justify-content-center align-items-center h-129">
                         <h4 class="text-uppercase fs-5 text-blue me-4 mt-2">follow us</h4>
-                        <img src="/footer-facebook.png">
-                        <img src="/footer-periscope.png">
-                        <img src="/footer-pinterest.png">
-                        <img src="/footer-twitter.png">
-                        <img src="/footer-youtube.png">
+                        <div v-for="img,index in imgs" :key="index">
+                            <img :src="img.url">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,6 +71,6 @@ button{
     color: white;
 }
 img{
-    margin: 0px 10px;
+    margin: 0px 12px;
 }
 </style>
