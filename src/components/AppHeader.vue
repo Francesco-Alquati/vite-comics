@@ -79,18 +79,23 @@ export default {
     </header>
 </template>
 <style lang="scss" scoped>
+    img{
+        width: 70px;
+        margin: 15px 0px;
+    }
     ul {
         li{
             margin: 0px 10px;
-            font-size: 13px;
+            font-size: 12px;
 
             a{
                 text-decoration: none;
-                color: black;
+                color: rgb(37, 37, 37);
             }
         }
         .active a{
             color: blue;
+            border-bottom: 4px solid blue;
         }
     }
 </style>
