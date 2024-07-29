@@ -39,7 +39,7 @@ export default {
 }
 </script>
 <template lang="">
-    <footer>
+    <div>
         <div class="bg-blue h-200 mx-auto">
             <ul class="list-unstyled h-100 text-uppercase d-flex justify-content-center align-items-center">
                 <li v-for="link,index in links" :key="index">
@@ -48,13 +48,7 @@ export default {
                 </li>
             </ul>
         </div>
-        <div class="bg-img">
-      
-        </div>
-        <div class="bg-success">
-          
-        </div>
-    </footer>
+    </div>
 </template>
 <style lang="scss" scoped>
 ul {
@@ -76,7 +70,7 @@ img{
     height: 150px;
 }
 .bg-blue{
-    background-color: #097CEB;
+    background-color: #0281F6;
 }
 .special-icon{
     width: 30px;

@@ -1,12 +1,15 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
+import AppFooterBlueLinks from './components/AppFooterBlueLinks.vue';
+import AppFooterAllLinks from './components/AppFooterAllLinks.vue';
 export default{
     components:{
         AppHeader,
         AppMain,
-        AppFooter,
+        AppFooterBlueLinks,
+        AppFooterAllLinks,
+        
     }
 }
 </script>
@@ -19,10 +22,11 @@ export default{
     <AppMain />
   </main>
   <footer>
-    <AppFooter />
+    <AppFooterBlueLinks />
+    <AppFooterAllLinks />
   </footer>
 </template>
 
 <style lang="scss" >
-@use './styles/generals.scss'
+@use './styles/generals.scss';
 </style>
