@@ -40,7 +40,7 @@ export default {
 </script>
 <template lang="">
     <div>
-        <div class="bg-blue h-200 mx-auto">
+        <div class="bg-blue h-200 mx-auto z-index-1">
             <ul class="list-unstyled h-100 text-uppercase d-flex justify-content-center align-items-center">
                 <li v-for="link,index in links" :key="index">
                     <img :src="link.img" :class="index === 3 ? 'special-icon' : ''">
@@ -74,6 +74,10 @@ img{
 }
 .special-icon{
     width: 30px;
+}
+.z-index-1{
+    position: relative;
+    z-index: 1;
 }
     
 </style>
