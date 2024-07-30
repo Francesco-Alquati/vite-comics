@@ -1,7 +1,11 @@
 <script>
+import AppCards from './AppCards.vue';
+
 export default {
-    
-}
+  components: {
+    AppCards,
+  },
+};
 </script>
 <template>
     <div class="bg-jumbo"></div>
@@ -13,6 +17,7 @@ export default {
                         <button class="btn-primary text-uppercase p-absolute-button translate-middle">Current series</button>
                     </div>
                 </div>
+                <AppCards />
             </div>
         </div>
     </main>
@@ -25,13 +30,15 @@ export default {
 }
 main{
     background-color: rgb(37, 37, 37);
-    height: 160px;
 }
 button{
     padding: 8px;
+    width: 200px;
     border: none;
     background-color: #0281F6;
     color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 .p-absolute-button{
     position: absolute;
