@@ -4,31 +4,26 @@ export default {
         return{
             links:[
                 {
-                    index: 1,
                     label: 'digital comics',
                     img: '/buy-comics-digital-comics.png',
                     url: '#',
                 },
                 {
-                    index: 2,
                     label: 'dc merchandise',
                     img: '/buy-comics-merchandise.png',
                     url: '#',
                 },
                 {
-                    index: 3,
                     label: 'subscription',
                     img: '/buy-comics-subscriptions.png',
                     url: '#',
                 },
                 {
-                    index: 4,
                     label: 'comic shop locator',
                     img: '/buy-comics-shop-locator.png',
                     url: '#',
                 },
                 {
-                    index: 5,
                     label: 'dc power visa',
                     img: '/buy-dc-power-visa.svg',
                     url: '#',
@@ -38,7 +33,7 @@ export default {
     }
 }
 </script>
-<template lang="">
+<template>
     <div>
         <div class="bg-blue h-130 mx-auto z-index-1">
             <ul class="list-unstyled h-100 text-uppercase d-flex justify-content-center align-items-center">

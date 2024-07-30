@@ -29,7 +29,7 @@ export default {
     
 }
 </script>
-<template lang="">
+<template>
     <div class="bg-grey h-129 z-index-1">
         <div class="container">
             <div class="row">

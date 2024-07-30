@@ -2,7 +2,7 @@
 export default {
     data(){
         return{
-            Alllinks:[
+            TabList:[
                 {
                     titles: 'Dc comics',
                     links:[
@@ -130,12 +130,12 @@ export default {
     }
 }
 </script>
-<template lang="">
+<template>
     <div class='h-300 bg-img'>
         <div class="container">
             <div class="row">
                 <div class="col-7 d-flex justify-content-center mt-4 position-relative">
-                    <div v-for="(title, index) in Alllinks" :key="title.titles" class="me-5" :class="{ shop: title.titles === 'Shop' }">
+                    <div v-for="(title, index) in TabList" :key="title.titles" class="me-5" :class="{ shop: title.titles === 'Shop' }">
                         <h2 class="text-white fs-6 text-uppercase mb-2">{{ title.titles }}</h2>
                         <ul class="list-unstyled">
                           <li v-for="link in title.links" :key="link.label">

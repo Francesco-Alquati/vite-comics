@@ -58,7 +58,7 @@ export default {
     }
 }
 </script>
-<template lang="">
+<template>
     <header>
         <div class="container">
             <div class="row">
