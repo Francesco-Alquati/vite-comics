@@ -134,8 +134,8 @@ export default {
     <div class='h-300 bg-img'>
         <div class="container">
             <div class="row">
-                <div class="col-7 d-flex justify-content-center mt-4">
-                    <div v-for="(title, index) in Alllinks" :key="title.titles" class="me-4">
+                <div class="col-7 d-flex justify-content-center mt-4 position-relative">
+                    <div v-for="(title, index) in Alllinks" :key="title.titles" class="me-5" :class="{ shop: title.titles === 'Shop' }">
                         <h2 class="text-white fs-6 text-uppercase mb-2">{{ title.titles }}</h2>
                         <ul class="list-unstyled">
                           <li v-for="link in title.links" :key="link.label">
@@ -175,5 +175,10 @@ ul {
             color: rgb(138, 138, 138);
         }
     }
+}
+.shop {
+    position: absolute;
+    left: 175px;
+    top: 160px;
 }
 </style>

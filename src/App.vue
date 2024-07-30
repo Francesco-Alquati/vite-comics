@@ -1,14 +1,14 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooterBlueLinks from './components/AppFooterBlueLinks.vue';
+import AppMainBottom from './components/AppMainBottom.vue';
 import AppFooterAllLinks from './components/AppFooterAllLinks.vue';
 import AppFooterSocial from './components/AppFooterSocial.vue';
 export default{
     components:{
         AppHeader,
         AppMain,
-        AppFooterBlueLinks,
+        AppMainBottom,
         AppFooterAllLinks,
         AppFooterSocial,
     }
@@ -21,9 +21,9 @@ export default{
   </header>
   <main>
     <AppMain />
+    <AppMainBottom />
   </main>
   <footer>
-    <AppFooterBlueLinks />
     <AppFooterAllLinks />
     <AppFooterSocial />
   </footer>
