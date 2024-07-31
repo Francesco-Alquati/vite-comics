@@ -74,5 +74,8 @@ img{
     position: relative;
     z-index: 1;
 }
+a:hover{
+    color: black;
+}
     
 </style>

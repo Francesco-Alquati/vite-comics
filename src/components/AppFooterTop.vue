@@ -181,4 +181,7 @@ ul {
     left: 175px;
     top: 160px;
 }
+a:hover{
+    color: white;
+}
 </style>

@@ -22,8 +22,7 @@ export default{
     <AppHeader />
   </header>
   <main>
-    <AppMain />
-    <AppMainBottom />
+    <AppMain/>
   </main>
   <footer>
     <AppFooterTop />
@@ -32,5 +31,5 @@ export default{
 </template>
 
 <style lang="scss" >
-@use './styles/generals.scss';
+@import './styles/generals.scss';
 </style>

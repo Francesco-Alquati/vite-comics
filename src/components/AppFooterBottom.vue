@@ -73,4 +73,14 @@ button{
 img{
     margin: 0px 12px;
 }
+img:hover{
+    border-radius: 50%;
+    background-color:  white;
+}
+h4:hover{
+    color: blue;
+}
+button:hover{
+    background-color: #0281F6;
+}
 </style>
